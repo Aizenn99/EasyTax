@@ -27,7 +27,8 @@ const router = createBrowserRouter([
   {
     path:"/Add-listing",
     element:<AddListing />
-  }
+  },
+  
 ]);
 
 createRoot(document.getElementById("root")).render(

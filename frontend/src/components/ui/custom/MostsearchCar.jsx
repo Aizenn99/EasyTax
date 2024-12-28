@@ -12,15 +12,15 @@ import CarItem from "./CarItem";
 
 function MostsearchCar() {
   return (
-    <div className="mx-24">
+    <div className="mx-24  hidden  md:block ">
       <h2 className="text-3xl font-bold font-mono text-center my-16">
         Most searched Car
       </h2>
       <Carousel>
         <CarouselContent>
           {Fakedata.carlist.map((car, i) => (
-            <CarouselItem className="basis-1/4" >
-              <CarItem car={car} key={i} />
+            <CarouselItem className="basis-1/4" key={i} >
+              <CarItem car={car}  />
             </CarouselItem>
           ))}
         </CarouselContent>

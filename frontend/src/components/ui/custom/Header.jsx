@@ -10,9 +10,12 @@ function Header() {
       <img src="logo.svg" width={120} height={100} />
 
       <ul className=" hidden  text-gray-600  md:flex gap-16  font-mono ">
+
+        <Link to={'/'} >
         <li className="font-md hover:scale-105 transition-all cursor-pointer hover:text-black">
           Home
         </li>
+        </Link>
         <li className="font-md hover:scale-105 transition-all cursor-pointer hover:text-black">
           Search
         </li>
