@@ -4,7 +4,6 @@ import { BsFuelPump } from "react-icons/bs";
 import { SlSpeedometer } from "react-icons/sl";
 import { GiGearStickPattern } from "react-icons/gi";
 import { MdOpenInNew } from "react-icons/md";
-import Fakedata from "@/Shared/Fakedata";
 
 function CarItem({ car }) {
   return (
